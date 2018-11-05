@@ -23,7 +23,7 @@
             (let [sym (first aliased)
                   target (second aliased)]
               (ns-unalias *ns* sym)
-              (alias sym (.getName target)))))))
+              (alias sym (.getName (find-ns (.getName target)))))))))
     (catch Throwable e (println (.getStackTrace e))))
   (Thread/sleep 1000))
 
