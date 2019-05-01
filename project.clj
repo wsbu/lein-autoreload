@@ -1,4 +1,4 @@
-(defproject komcrad/lein-autoreload "0.2.0-SNAPSHOT"
+(defproject komcrad/lein-autoreload "0.2.0"
   :description "When running the repl, reload every time a file is saved."
   :url "https://github.com/komcrad/lein-autoreload"
   :license {:name "MIT"
