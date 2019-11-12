@@ -4,7 +4,7 @@ This plugin will guarantee that when running the repl, you are always up to date
 
 ## Usage
 
-Put `[komcrad/lein-autoreload "0.2.0"]` into the `:plugins` vector of your
+Put `[net.redlion/lein-autoreload "0.2.0"]` into the `:plugins` vector of your
 `:user` profile.
 
 In `:repl-options` you'll want to have some namespace that you won't be changing such as `my-proj.user`  
