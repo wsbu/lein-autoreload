@@ -4,8 +4,6 @@ This plugin will guarantee that when running the repl, you are always up to date
 
 ## Usage
 
-[![Clojars Project](https://img.shields.io/clojars/v/komcrad/lein-autoreload.svg)](https://clojars.org/komcrad/lein-autoreload)  
-
 Put `[komcrad/lein-autoreload "0.2.0"]` into the `:plugins` vector of your
 `:user` profile.
 
